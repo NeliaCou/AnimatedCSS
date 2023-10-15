@@ -1,18 +1,22 @@
-#cat-img-1 {
+.cat-img {
+  transition: all 1s ease-in-out;
+}
+
+#cat-img-1:hover {
   transform: rotate(20deg);
 }
 
-#cat-img-2 {
+#cat-img-2:hover {
   transform: scale(2);
 }
-#cat-img-3 {
+#cat-img-3:hover {
   transform: translate(200px, 200px);
 }
 
-#cat-img-4 {
+#cat-img-4:hover {
   transform: skew(20deg, 10deg);
 }
 
-#cat-img-5 {
+#cat-img-5:hover {
   transform: rotate(20deg) translate(100px, 50px);
 }
